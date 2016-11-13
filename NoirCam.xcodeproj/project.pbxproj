@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5507B4A1B4051AE0023FA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5507B491B4051AE0023FA41 /* AppDelegate.swift */; };
+		C5507B4C1B4051AE0023FA41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5507B4B1B4051AE0023FA41 /* ViewController.swift */; };
+		C5507B4F1B4051AE0023FA41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5507B4D1B4051AE0023FA41 /* Main.storyboard */; };
+		C5507B511B4051AE0023FA41 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5507B501B4051AE0023FA41 /* Images.xcassets */; };
+		C5507B541B4051AE0023FA41 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5507B521B4051AE0023FA41 /* LaunchScreen.xib */; };
+		C5507B601B4051AF0023FA41 /* NoirCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5507B5F1B4051AF0023FA41 /* NoirCamTests.swift */; };
+		C5507B6C1B4053D00023FA41 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5507B6B1B4053D00023FA41 /* CoreImage.framework */; };
+		F47FA91F1CFBCB4E00FCD22C /* pigtails 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */; };
+		F47FA9211CFBCBBF00FCD22C /* Strong Man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */; };
+		F4F92BB21CF2BAE100F24197 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4F92BB11CF2BAE100F24197 /* girl.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5507B5A1B4051AF0023FA41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5507B3C1B4051AE0023FA41 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5507B431B4051AE0023FA41;
+			remoteInfo = NoirCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5507B441B4051AE0023FA41 /* NoirCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoirCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5507B481B4051AE0023FA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5507B491B4051AE0023FA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5507B4B1B4051AE0023FA41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5507B4E1B4051AE0023FA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5507B501B4051AE0023FA41 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C5507B531B4051AE0023FA41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C5507B591B4051AF0023FA41 /* NoirCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoirCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5507B5E1B4051AF0023FA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5507B5F1B4051AF0023FA41 /* NoirCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoirCamTests.swift; sourceTree = "<group>"; };
+		C5507B6B1B4053D00023FA41 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pigtails 2.png"; sourceTree = "<group>"; };
+		F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strong Man.jpg"; sourceTree = "<group>"; };
+		F4F92BB11CF2BAE100F24197 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5507B411B4051AE0023FA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5507B6C1B4053D00023FA41 /* CoreImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5507B561B4051AF0023FA41 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5507B3B1B4051AE0023FA41 = {
+			isa = PBXGroup;
+			children = (
+				C5507B6B1B4053D00023FA41 /* CoreImage.framework */,
+				F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */,
+				F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */,
+				F4F92BB11CF2BAE100F24197 /* girl.jpg */,
+				C5507B461B4051AE0023FA41 /* NoirCam */,
+				C5507B5C1B4051AF0023FA41 /* NoirCamTests */,
+				C5507B451B4051AE0023FA41 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5507B451B4051AE0023FA41 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5507B441B4051AE0023FA41 /* NoirCam.app */,
+				C5507B591B4051AF0023FA41 /* NoirCamTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5507B461B4051AE0023FA41 /* NoirCam */ = {
+			isa = PBXGroup;
+			children = (
+				C5507B491B4051AE0023FA41 /* AppDelegate.swift */,
+				C5507B4B1B4051AE0023FA41 /* ViewController.swift */,
+				C5507B4D1B4051AE0023FA41 /* Main.storyboard */,
+				C5507B501B4051AE0023FA41 /* Images.xcassets */,
+				C5507B521B4051AE0023FA41 /* LaunchScreen.xib */,
+				C5507B471B4051AE0023FA41 /* Supporting Files */,
+			);
+			path = NoirCam;
+			sourceTree = "<group>";
+		};
+		C5507B471B4051AE0023FA41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5507B481B4051AE0023FA41 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5507B5C1B4051AF0023FA41 /* NoirCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5507B5F1B4051AF0023FA41 /* NoirCamTests.swift */,
+				C5507B5D1B4051AF0023FA41 /* Supporting Files */,
+			);
+			path = NoirCamTests;
+			sourceTree = "<group>";
+		};
+		C5507B5D1B4051AF0023FA41 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5507B5E1B4051AF0023FA41 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5507B431B4051AE0023FA41 /* NoirCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5507B631B4051AF0023FA41 /* Build configuration list for PBXNativeTarget "NoirCam" */;
+			buildPhases = (
+				C5507B401B4051AE0023FA41 /* Sources */,
+				C5507B411B4051AE0023FA41 /* Frameworks */,
+				C5507B421B4051AE0023FA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoirCam;
+			productName = NoirCam;
+			productReference = C5507B441B4051AE0023FA41 /* NoirCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5507B581B4051AF0023FA41 /* NoirCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5507B661B4051AF0023FA41 /* Build configuration list for PBXNativeTarget "NoirCamTests" */;
+			buildPhases = (
+				C5507B551B4051AF0023FA41 /* Sources */,
+				C5507B561B4051AF0023FA41 /* Frameworks */,
+				C5507B571B4051AF0023FA41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5507B5B1B4051AF0023FA41 /* PBXTargetDependency */,
+			);
+			name = NoirCamTests;
+			productName = NoirCamTests;
+			productReference = C5507B591B4051AF0023FA41 /* NoirCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5507B3C1B4051AE0023FA41 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Bluewater Publishing";
+				TargetAttributes = {
+					C5507B431B4051AE0023FA41 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = FPN9QRRJZN;
+						LastSwiftMigration = 0810;
+					};
+					C5507B581B4051AF0023FA41 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = FPN9QRRJZN;
+						LastSwiftMigration = 0810;
+						TestTargetID = C5507B431B4051AE0023FA41;
+					};
+				};
+			};
+			buildConfigurationList = C5507B3F1B4051AE0023FA41 /* Build configuration list for PBXProject "NoirCam" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5507B3B1B4051AE0023FA41;
+			productRefGroup = C5507B451B4051AE0023FA41 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5507B431B4051AE0023FA41 /* NoirCam */,
+				C5507B581B4051AF0023FA41 /* NoirCamTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5507B421B4051AE0023FA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5507B4F1B4051AE0023FA41 /* Main.storyboard in Resources */,
+				F47FA91F1CFBCB4E00FCD22C /* pigtails 2.png in Resources */,
+				F4F92BB21CF2BAE100F24197 /* girl.jpg in Resources */,
+				C5507B541B4051AE0023FA41 /* LaunchScreen.xib in Resources */,
+				F47FA9211CFBCBBF00FCD22C /* Strong Man.jpg in Resources */,
+				C5507B511B4051AE0023FA41 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5507B571B4051AF0023FA41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5507B401B4051AE0023FA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5507B4C1B4051AE0023FA41 /* ViewController.swift in Sources */,
+				C5507B4A1B4051AE0023FA41 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5507B551B4051AF0023FA41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5507B601B4051AF0023FA41 /* NoirCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5507B5B1B4051AF0023FA41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5507B431B4051AE0023FA41 /* NoirCam */;
+			targetProxy = C5507B5A1B4051AF0023FA41 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5507B4D1B4051AE0023FA41 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5507B4E1B4051AE0023FA41 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5507B521B4051AE0023FA41 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5507B531B4051AE0023FA41 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5507B611B4051AF0023FA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5507B621B4051AF0023FA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5507B641B4051AF0023FA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPN9QRRJZN;
+				INFOPLIST_FILE = NoirCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bluewaterpublishing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C5507B651B4051AF0023FA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FPN9QRRJZN;
+				INFOPLIST_FILE = NoirCam/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bluewaterpublishing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C5507B671B4051AF0023FA41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FPN9QRRJZN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoirCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bluewaterpublishing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoirCam.app/NoirCam";
+			};
+			name = Debug;
+		};
+		C5507B681B4051AF0023FA41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FPN9QRRJZN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NoirCamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bluewaterpublishing.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoirCam.app/NoirCam";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5507B3F1B4051AE0023FA41 /* Build configuration list for PBXProject "NoirCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5507B611B4051AF0023FA41 /* Debug */,
+				C5507B621B4051AF0023FA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5507B631B4051AF0023FA41 /* Build configuration list for PBXNativeTarget "NoirCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5507B641B4051AF0023FA41 /* Debug */,
+				C5507B651B4051AF0023FA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5507B661B4051AF0023FA41 /* Build configuration list for PBXNativeTarget "NoirCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5507B671B4051AF0023FA41 /* Debug */,
+				C5507B681B4051AF0023FA41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5507B3C1B4051AE0023FA41 /* Project object */;
+}

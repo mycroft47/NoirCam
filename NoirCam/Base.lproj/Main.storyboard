@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NoirCam" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dJh-J6-1Zf">
+                                <rect key="frame" x="37" y="34" width="292" height="334"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="dJh-J6-1Zf" secondAttribute="height" multiplier="73:87" constant="11.747126436781627" id="1oM-On-yaS"/>
+                                    <constraint firstAttribute="height" constant="334" id="53A-dt-7GL"/>
+                                    <constraint firstAttribute="width" secondItem="dJh-J6-1Zf" secondAttribute="height" multiplier="146:167" id="Cxe-m3-PoF"/>
+                                    <constraint firstAttribute="width" constant="292" id="ac6-rz-T3P"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="292" id="oRu-ri-7iB"/>
+                                </constraints>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="wL0-DC-cbU">
+                                <rect key="frame" x="38" y="390" width="299" height="257"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wL0-DC-cbU" secondAttribute="height" multiplier="299:257" id="IqF-Rm-2gz"/>
+                                    <constraint firstAttribute="height" constant="257" id="dd0-f4-wY0"/>
+                                    <constraint firstAttribute="width" constant="299" id="x9T-QJ-btC"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="msF-P2-Jfa"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="OiC-Bb-bOd"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="dJh-J6-1Zf" secondAttribute="trailing" constant="22" id="4AO-W1-A3x"/>
+                            <constraint firstItem="dJh-J6-1Zf" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="Jke-KP-pYD"/>
+                            <constraint firstItem="wL0-DC-cbU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="NaJ-2g-16b"/>
+                            <constraint firstItem="wL0-DC-cbU" firstAttribute="top" secondItem="dJh-J6-1Zf" secondAttribute="bottom" constant="22" id="SNv-Ur-mJL"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="wL0-DC-cbU" secondAttribute="bottom" constant="20" id="WmM-Io-kR7"/>
+                            <constraint firstItem="wL0-DC-cbU" firstAttribute="top" secondItem="dJh-J6-1Zf" secondAttribute="bottom" constant="22" id="g6Z-J3-1nh"/>
+                            <constraint firstItem="wL0-DC-cbU" firstAttribute="top" secondItem="dJh-J6-1Zf" secondAttribute="bottom" constant="22" id="hM6-Lw-rdt"/>
+                            <constraint firstItem="dJh-J6-1Zf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="14" id="irj-wJ-ScJ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wL0-DC-cbU" secondAttribute="trailing" constant="15" id="pKM-Xc-Rg8"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="imageView" destination="dJh-J6-1Zf" id="HtS-qD-gvL"/>
+                        <outlet property="tableView" destination="wL0-DC-cbU" id="62l-z9-KzP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.5" y="361.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="girl.jpg" width="576" height="768"/>
+    </resources>
+</document>
