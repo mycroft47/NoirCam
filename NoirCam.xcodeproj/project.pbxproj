@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		321E91105D050248853BB3A9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0DA9CF241EAAB99317E653D /* AssetsLibrary.framework */; };
+		58A587190854C7D653079786 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DAC98AE910286A5E7594383 /* CoreText.framework */; };
+		59B621D962C05BF637134477 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6D9B2DF4C6FDFF1A15CDFF /* CoreTelephony.framework */; };
+		6CDA2150CAFDFC1E2F392221 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D6CF958099624FC93240F1C /* CoreVideo.framework */; };
+		7370E59E385A7CF06F22AF8D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F333FBD4A5C5A5A940DC05 /* CoreMedia.framework */; };
+		7BADCC348D34D54F00E91877 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D260A63B09C8035EEBAE36 /* BuddyBuildSDK.framework */; };
 		C5507B4A1B4051AE0023FA41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5507B491B4051AE0023FA41 /* AppDelegate.swift */; };
 		C5507B4C1B4051AE0023FA41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5507B4B1B4051AE0023FA41 /* ViewController.swift */; };
 		C5507B4F1B4051AE0023FA41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5507B4D1B4051AE0023FA41 /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		C5507B541B4051AE0023FA41 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5507B521B4051AE0023FA41 /* LaunchScreen.xib */; };
 		C5507B601B4051AF0023FA41 /* NoirCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5507B5F1B4051AF0023FA41 /* NoirCamTests.swift */; };
 		C5507B6C1B4053D00023FA41 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5507B6B1B4053D00023FA41 /* CoreImage.framework */; };
+		CB0E4888A8211F76A08543A2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB29AE7A21AC6EB94ED9F304 /* QuartzCore.framework */; };
+		E39AAA46A22007DD99CE0F03 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82F2F83CBF5EE8259694B5E7 /* AVFoundation.framework */; };
+		E62F63026A76B4B0609718CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D13B8B2A02C59343E6E6FA4 /* SystemConfiguration.framework */; };
 		F47FA91F1CFBCB4E00FCD22C /* pigtails 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */; };
 		F47FA9211CFBCBBF00FCD22C /* Strong Man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */; };
 		F4F92BB21CF2BAE100F24197 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4F92BB11CF2BAE100F24197 /* girl.jpg */; };
@@ -30,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DAC98AE910286A5E7594383 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		46F333FBD4A5C5A5A940DC05 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		4C6D9B2DF4C6FDFF1A15CDFF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		7D13B8B2A02C59343E6E6FA4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		82F2F83CBF5EE8259694B5E7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8D6CF958099624FC93240F1C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		B09ADCB3CFEA3C3E7D8BB2CD /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		BB29AE7A21AC6EB94ED9F304 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		C5507B441B4051AE0023FA41 /* NoirCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoirCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5507B481B4051AE0023FA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5507B491B4051AE0023FA41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +58,8 @@
 		C5507B5E1B4051AF0023FA41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5507B5F1B4051AF0023FA41 /* NoirCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoirCamTests.swift; sourceTree = "<group>"; };
 		C5507B6B1B4053D00023FA41 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		D0DA9CF241EAAB99317E653D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		D3D260A63B09C8035EEBAE36 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pigtails 2.png"; sourceTree = "<group>"; };
 		F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strong Man.jpg"; sourceTree = "<group>"; };
 		F4F92BB11CF2BAE100F24197 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
@@ -52,6 +71,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5507B6C1B4053D00023FA41 /* CoreImage.framework in Frameworks */,
+				7BADCC348D34D54F00E91877 /* BuddyBuildSDK.framework in Frameworks */,
+				321E91105D050248853BB3A9 /* AssetsLibrary.framework in Frameworks */,
+				58A587190854C7D653079786 /* CoreText.framework in Frameworks */,
+				59B621D962C05BF637134477 /* CoreTelephony.framework in Frameworks */,
+				E62F63026A76B4B0609718CB /* SystemConfiguration.framework in Frameworks */,
+				CB0E4888A8211F76A08543A2 /* QuartzCore.framework in Frameworks */,
+				E39AAA46A22007DD99CE0F03 /* AVFoundation.framework in Frameworks */,
+				7370E59E385A7CF06F22AF8D /* CoreMedia.framework in Frameworks */,
+				6CDA2150CAFDFC1E2F392221 /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +93,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AF3F28AEF145E0EBA517BB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3D260A63B09C8035EEBAE36 /* BuddyBuildSDK.framework */,
+				D0DA9CF241EAAB99317E653D /* AssetsLibrary.framework */,
+				1DAC98AE910286A5E7594383 /* CoreText.framework */,
+				4C6D9B2DF4C6FDFF1A15CDFF /* CoreTelephony.framework */,
+				7D13B8B2A02C59343E6E6FA4 /* SystemConfiguration.framework */,
+				BB29AE7A21AC6EB94ED9F304 /* QuartzCore.framework */,
+				82F2F83CBF5EE8259694B5E7 /* AVFoundation.framework */,
+				46F333FBD4A5C5A5A940DC05 /* CoreMedia.framework */,
+				8D6CF958099624FC93240F1C /* CoreVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C5507B3B1B4051AE0023FA41 = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +119,8 @@
 				C5507B461B4051AE0023FA41 /* NoirCam */,
 				C5507B5C1B4051AF0023FA41 /* NoirCamTests */,
 				C5507B451B4051AE0023FA41 /* Products */,
+				0AF3F28AEF145E0EBA517BB6 /* Frameworks */,
+				B09ADCB3CFEA3C3E7D8BB2CD /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -366,10 +412,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FPN9QRRJZN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NoirCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = simonyouens.NoirCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -379,10 +430,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FPN9QRRJZN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NoirCam/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = simonyouens.NoirCam;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
