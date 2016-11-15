@@ -52,7 +52,8 @@ class ViewController: UIViewController {
     
     
     func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
- 
+      var number: Int?
+      var val: Int
       let CIfilterName = filterNames[indexPath.row]
       print(CIfilterName)
       
@@ -60,8 +61,8 @@ class ViewController: UIViewController {
         imageView.image = originalImage
         
       } else if CIfilterName == "CIPhotoEffectTonal" { // force crash
-        assert(1 == 2, "Failure!")
-        
+        number = nil
+        val = number!
       } else {
       
         let ciContext = CIContext(options: nil)
