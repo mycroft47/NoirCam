@@ -52,13 +52,20 @@ class ViewController: UIViewController {
     
     
     func tableView(_ tableView: UITableView, didSelectRowAtIndexPath indexPath: IndexPath) {
-        
+      var x: Double
+      var y: Double
+      var z: Double
       let CIfilterName = filterNames[indexPath.row]
       print(CIfilterName)
       
       if CIfilterName == "Original" {
         imageView.image = originalImage
-    
+        
+      } else if CIfilterName == "Dots" { // force crash
+          x = 1.0
+        y = 0.0
+        z = x/y
+          
       } else {
       
         let ciContext = CIContext(options: nil)
