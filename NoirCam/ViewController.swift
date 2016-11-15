@@ -61,7 +61,7 @@ class ViewController: UIViewController {
       if CIfilterName == "Original" {
         imageView.image = originalImage
         
-      } else if CIfilterName == "Dots" { // force crash
+      } else if CIfilterName == "Tonality" { // force crash
           x = 1.0
         y = 0.0
         z = x/y
