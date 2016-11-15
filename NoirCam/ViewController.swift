@@ -17,7 +17,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var imageView: UIImageView!
     
-    var items: [String] = ["Original", "Tonality", "Ansel Adams", "Dark", "Noir", "Dots"]
+  public var CrashTest: Bool = true // false          // Set to true to crash test
+
+  var items: [String] = ["Original", "Tonality", "Ansel Adams", "Dark", "Noir", "Dots"]
     
     var filterNames: [String] = ["Original", "CIPhotoEffectTonal", "CIMaximumComponent", "CIMinimumComponent", "CIPhotoEffectNoir", "CIDotScreen"]
   
@@ -29,6 +31,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+      if CrashTest {
+        items[5] = "Click to Crash"
+        print (items)
+      }
     }
 
     override func didReceiveMemoryWarning() {
@@ -60,7 +66,7 @@ class ViewController: UIViewController {
       if CIfilterName == "Original" {
         imageView.image = originalImage
         
-      } else if CIfilterName == "CIPhotoEffectTonal" { // force crash
+      } else if (CIfilterName == "CIDotScreen" && CrashTest) { // force crash
         number = nil
         val = number!
       } else {
