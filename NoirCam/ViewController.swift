@@ -66,9 +66,12 @@ class ViewController: UIViewController {
       if CIfilterName == "Original" {
         imageView.image = originalImage
         
-      } else if (CIfilterName == "CIDotScreen" && CrashTest) { // force crash
+      } else if (CIfilterName == "CIDotScreen" && CrashTest) {
+        
+        // force crash
         number = nil
         val = number!
+        
       } else {
       
         let ciContext = CIContext(options: nil)
