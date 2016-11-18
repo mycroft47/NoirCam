@@ -25,6 +25,7 @@
 		E62F63026A76B4B0609718CB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D13B8B2A02C59343E6E6FA4 /* SystemConfiguration.framework */; };
 		F47FA91F1CFBCB4E00FCD22C /* pigtails 2.png in Resources */ = {isa = PBXBuildFile; fileRef = F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */; };
 		F47FA9211CFBCBBF00FCD22C /* Strong Man.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */; };
+		F4A4BCB91DDE853500D570AF /* Matt_1492.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4A4BCB81DDE853500D570AF /* Matt_1492.jpg */; };
 		F4F92BB21CF2BAE100F24197 /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F4F92BB11CF2BAE100F24197 /* girl.jpg */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		D3D260A63B09C8035EEBAE36 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pigtails 2.png"; sourceTree = "<group>"; };
 		F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Strong Man.jpg"; sourceTree = "<group>"; };
+		F4A4BCB81DDE853500D570AF /* Matt_1492.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Matt_1492.jpg; sourceTree = "<group>"; };
 		F4F92BB11CF2BAE100F24197 /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -112,6 +114,7 @@
 		C5507B3B1B4051AE0023FA41 = {
 			isa = PBXGroup;
 			children = (
+				F4A4BCB81DDE853500D570AF /* Matt_1492.jpg */,
 				C5507B6B1B4053D00023FA41 /* CoreImage.framework */,
 				F47FA91E1CFBCB4E00FCD22C /* pigtails 2.png */,
 				F47FA9201CFBCBBF00FCD22C /* Strong Man.jpg */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5507B4F1B4051AE0023FA41 /* Main.storyboard in Resources */,
+				F4A4BCB91DDE853500D570AF /* Matt_1492.jpg in Resources */,
 				F47FA91F1CFBCB4E00FCD22C /* pigtails 2.png in Resources */,
 				F4F92BB21CF2BAE100F24197 /* girl.jpg in Resources */,
 				C5507B541B4051AE0023FA41 /* LaunchScreen.xib in Resources */,

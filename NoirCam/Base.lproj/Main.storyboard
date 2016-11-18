@@ -23,7 +23,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="girl.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dJh-J6-1Zf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Matt_1492.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dJh-J6-1Zf">
                                 <rect key="frame" x="37" y="34" width="292" height="334"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="dJh-J6-1Zf" secondAttribute="height" multiplier="73:87" constant="11.747126436781627" id="1oM-On-yaS"/>
@@ -67,10 +67,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="304.5" y="361.5"/>
+            <point key="canvasLocation" x="-30" y="140"/>
         </scene>
     </scenes>
     <resources>
-        <image name="girl.jpg" width="576" height="768"/>
+        <image name="Matt_1492.jpg" width="600" height="800"/>
     </resources>
 </document>

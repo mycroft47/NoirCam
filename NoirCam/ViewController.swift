@@ -23,16 +23,16 @@ class ViewController: UIViewController {
     
     var filterNames: [String] = ["Original", "CIPhotoEffectTonal", "CIMaximumComponent", "CIMinimumComponent", "CIPhotoEffectNoir", "CIDotScreen"]
   
-  var originalImage : UIImage = UIImage(named:"girl.jpg")!
+    var originalImage : UIImage  = UIImage(named:"Matt_1492.jpg")!
+//   var originalImage : UIImage = UIImage(named:"girl.jpg")!
 //   var originalImage : UIImage  = UIImage(named:"pigtails 2.png")!
-//var originalImage : UIImage  = UIImage(named:"Strong Man.jpg")!
 
   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
       if CrashTest {
-        items[5] = "Click to Crash"
+        items[4] = "Click to Crash"
         print (items)
       }
     }
@@ -66,7 +66,7 @@ class ViewController: UIViewController {
       if CIfilterName == "Original" {
         imageView.image = originalImage
         
-      } else if (CIfilterName == "CIDotScreen" && CrashTest) {
+      } else if (CIfilterName == "CIPhotoEffectNoir" && CrashTest) {
         
         // force crash
         number = nil
