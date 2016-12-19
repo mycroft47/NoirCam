@@ -23,8 +23,8 @@ class ViewController: UIViewController {
     
     var filterNames: [String] = ["Original", "CIPhotoEffectTonal", "CIMaximumComponent", "CIMinimumComponent", "CIPhotoEffectNoir", "CIDotScreen"]
   
-    var originalImage : UIImage  = UIImage(named:"Matt_1492.jpg")!
-//   var originalImage : UIImage = UIImage(named:"girl.jpg")!
+//    var originalImage : UIImage  = UIImage(named:"Matt_1492.jpg")!
+   var originalImage : UIImage = UIImage(named:"girl.jpg")!
 //   var originalImage : UIImage  = UIImage(named:"pigtails 2.png")!
 
   
